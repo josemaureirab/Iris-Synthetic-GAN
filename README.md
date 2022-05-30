@@ -15,21 +15,27 @@
 
 ## Dataset
 
-For this paper, and for all GAN methods implemented, the GFI-UND database was used ([Download Here](https://cvrl.nd.edu/projects/data/the-gender-from-iris-dataset-nd-gfi)). This database is organized in 3,000 NIR periocular Iris images with a resolution of 640 × 480, captured with an LG-4000 capture device. The database is equally distributed with 1,500 left and 1,500 right NIR iris images. The database is also gender-balanced, with 750 males and 750 females subject-disjoint. For all training methods, the input to the GANs were 3,000 images. A probabilistic data-augmentation based on imgaug library a high occurrence rate (p : 0.75) was used in all experiments.
+For this paper, and for all GAN methods implemented, the GFI-UND database was used. This database is organized in 3,000 NIR periocular Iris images with a resolution of 640 × 480, captured with an LG-4000 capture device. The database is equally distributed with 1,500 left and 1,500 right NIR iris images. The database is also gender-balanced, with 750 males and 750 females subject-disjoint. For all training methods, the input to the GANs were 3,000 images. A probabilistic data-augmentation based on imgaug library a high occurrence rate (p : 0.75) was used in all experiments.
 
 ## Synthetics Image generation
 
 The synthetic iris images generated with the StyleGAN2 model that obtained the best fid score which was trained with the following parameters:
 
 
-| kIMGS | Learning rate | Optimizer |Pre-trained model?| Dataset| Model | FID |
-| --- | --- | --- | --- | --- | --- | --- |
-| 3,600 | 0.0025 | Adam  | Yes | GFI-UND | [Download Here](https://drive.google.com/file/d/16EUDdWTipj7YAEOntEPx8KkmpFA10tGD/view?usp=sharing)| 16.29 |
+| kIMGS | Learning rate | Optimizer |Pre-trained model?| Dataset| FID |
+| --- | --- | --- | --- | --- | --- |
+| 3,600 | 0.0025 | Adam  | Yes | GFI-UND | 16.29 |
 
-
-The dataset used in this paper of 3000 synthetically generated iris images with the best StyleGAN2 model is available for [download]().
+The dataset used in this paper of 3000 synthetically generated iris images with the best StyleGAN2 model is available in Downlads section.
 
 Used implementation of StyleGAN2: [Here](https://github.com/NVlabs/stylegan2-ada-pytorch)
+
+## Downloads
+
+Best model StyleGAN2 (FID = 16.29): [Download](https://drive.google.com/file/d/16EUDdWTipj7YAEOntEPx8KkmpFA10tGD/view?usp=sharing).
+Dataset 3000 synthetic iris images: [Download](https://www.dropbox.com/s/uag9fjp5dk0guct/StyleGan-Iris-PADv1.zip?dl=0) (The file password should be required to juan.tapia-farias@h-da.de).
+GFI-UND database: [Download](https://cvrl.nd.edu/projects/data/the-gender-from-iris-dataset-nd-gfi).
+
 
 
 ### Example of synthetic image with size of 250x250 pixels generated using StyleGAN2:
