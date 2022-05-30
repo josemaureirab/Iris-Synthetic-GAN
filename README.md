@@ -13,7 +13,18 @@ The LivDet-2020 competition focuses on Presentation Attacks Detection (PAD) algo
 
 ## Dataset
 
-For this paper, and for all GAN methods implemented, the GFI-UND database was used ([Download Here](https://cvrl.nd.edu/projects/data/the-gender-from-iris-dataset-nd-gfi)). This database is organized in 3,000 NIR periocular Iris images with a resolution of 640 × 480, captured with an LG-4000 capture device. 
+For this paper, and for all GAN methods implemented, the GFI-UND database was used ([Download Here](https://cvrl.nd.edu/projects/data/the-gender-from-iris-dataset-nd-gfi)). This database is organized in 3,000 NIR periocular Iris images with a resolution of 640 × 480, captured with an LG-4000 capture device. The database is equally distributed with 1,500 left and 1,500 right NIR iris images. The database is also gender-balanced, with 750 males and 750 females subject-disjoint. For all training methods, the input to the GANs were 3,000 images. A probabilistic data-augmentation based on imgaug library a high occurrence rate (p : 0.75) was used in all experiments.
+
+## Synthetics Image generation
+
+The synthetic iris images generated
+
+## Model Zoo
+
+| Parallel Method | Loss | Backbone | Dataset | Split FC? | Model | Log File |
+| --- | --- | --- | --- | --- | --- | --- |
+| DDP | MagFace | iResNet100 | MS1MV2 | Yes | [GoogleDrive](https://drive.google.com/file/d/1Bd87admxOZvbIOAyTkGEntsEz3fyMt7H/view?usp=sharing), [BaiduDrive](https://pan.baidu.com/s/15iKz3wv6UhKmPGR6ltK4AA) code: wsw3 | **Trained by original codes** |
+
 
 
 ### Example of synthetic image with size of 250x250 pixels generated using StyleGAN2:
