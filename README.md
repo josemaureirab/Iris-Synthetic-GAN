@@ -22,7 +22,7 @@ The synthetic iris images generated with the StyleGAN2 model that obtained the b
 
 | kIMGS | Learning rate | Optimizer |Pre-trained model?| Dataset| Model | FID |
 | --- | --- | --- | --- | --- | --- | --- |
-| 3,600 | 0.0025 | Adam  | Yes | GFI-UND | [Download Here]()| 16.29 |
+| 3,600 | 0.0025 | Adam  | Yes | GFI-UND | [Download Here](https://drive.google.com/file/d/16EUDdWTipj7YAEOntEPx8KkmpFA10tGD/view?usp=sharing)| 16.29 |
 
 
 Used implementation of StyleGAN2: [Here](https://github.com/NVlabs/stylegan2-ada-pytorch)
