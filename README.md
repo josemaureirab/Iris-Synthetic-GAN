@@ -17,13 +17,15 @@ For this paper, and for all GAN methods implemented, the GFI-UND database was us
 
 ## Synthetics Image generation
 
-The synthetic iris images generated with the model that obtained the best fid score which was trained with the following parameters:
+The synthetic iris images generated with the StyleGAN2 model that obtained the best fid score which was trained with the following parameters:
 
 
-| kIMGS | lrate | Optimizer | Dataset| Model | FID |
-| --- | --- | --- | --- | --- | --- |
-| 3,600 | 0.0025 | Adam  | GFI-UND | [Download Here]()| 16.29 |
+| kIMGS | Learning rate | Optimizer |Pre-trained model?| Dataset| Model | FID |
+| --- | --- | --- | --- | --- | --- | --- |
+| 3,600 | 0.0025 | Adam  | Yes | GFI-UND | [Download Here]()| 16.29 |
 
+
+Used implementation of StyleGAN2: [Here](https://github.com/NVlabs/stylegan2-ada-pytorch)
 
 
 ### Example of synthetic image with size of 250x250 pixels generated using StyleGAN2:
@@ -31,8 +33,6 @@ The synthetic iris images generated with the model that obtained the best fid sc
 <p align="center">
 <img src="imgs_readme/seed0002.png">
 </p>
-
-
 
 
 ## Citation
