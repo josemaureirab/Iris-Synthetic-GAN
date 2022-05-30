@@ -13,9 +13,29 @@ The LivDet-2020 competition focuses on Presentation Attacks Detection (PAD) algo
 
 ## Dataset
 
+For this paper, and for all GAN methods implemented, the GFI-UND database was used [Download Here] (https://cvrl.nd.edu/projects/data/the-gender-from-iris-dataset-nd-gfi). This database is organized in 3,000 NIR periocular Iris images with a resolution of 640 × 480, captured with an LG-4000 capture device. 
+
 
 ### Example of synthetic image with size of 250x250 pixels generated using StyleGAN2:
 
 <p align="center">
 <img src="imgs_readme/seed0002.png">
 </p>
+
+
+
+
+## Citation
+
+```
+
+```
+
+## Contact info
+
+If you have any questions, you can contact us at the following emails:
+
+- jose.maureira@tocbiometrics.com
+- juan.tapia-farias@h-da.de
+
+
