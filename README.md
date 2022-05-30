@@ -32,9 +32,9 @@ Used implementation of StyleGAN2: [Here](https://github.com/NVlabs/stylegan2-ada
 
 ## Downloads
 
-Best model StyleGAN2 (FID = 16.29): [Download](https://drive.google.com/file/d/16EUDdWTipj7YAEOntEPx8KkmpFA10tGD/view?usp=sharing).
-Dataset 3000 synthetic iris images: [Download](https://www.dropbox.com/s/uag9fjp5dk0guct/StyleGan-Iris-PADv1.zip?dl=0) (The file password should be required to juan.tapia-farias@h-da.de).
-GFI-UND database: [Download](https://cvrl.nd.edu/projects/data/the-gender-from-iris-dataset-nd-gfi).
+-Best model StyleGAN2 (FID = 16.29): [Download](https://drive.google.com/file/d/16EUDdWTipj7YAEOntEPx8KkmpFA10tGD/view?usp=sharing).
+-Dataset 3000 synthetic iris images: [Download](https://www.dropbox.com/s/uag9fjp5dk0guct/StyleGan-Iris-PADv1.zip?dl=0) (The file password should be required to juan.tapia-farias@h-da.de).
+-GFI-UND database: [Download](https://cvrl.nd.edu/projects/data/the-gender-from-iris-dataset-nd-gfi).
 
 
 
