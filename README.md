@@ -31,7 +31,9 @@ Used implementation of StyleGAN2: [Here](https://github.com/NVlabs/stylegan2-ada
 ### Example of synthetic image with size of 250x250 pixels generated using StyleGAN2:
 
 <p align="center">
-<img src="imgs_readme/seed0002.png">
+	<img src="imgs_readme/generated_iris.png">
+	<em>Example of 18 synthetic iris images using the best model with StyleGAN2.
+	</em>
 </p>
 
 
