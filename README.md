@@ -17,13 +17,12 @@ For this paper, and for all GAN methods implemented, the GFI-UND database was us
 
 ## Synthetics Image generation
 
-The synthetic iris images generated
+The synthetic iris images generated with the model that obtained the best fid score which was trained with the following parameters:
 
-## Model Zoo
 
-| Parallel Method | Loss | Backbone | Dataset | Split FC? | Model | Log File |
-| --- | --- | --- | --- | --- | --- | --- |
-| DDP | MagFace | iResNet100 | MS1MV2 | Yes | [GoogleDrive](https://drive.google.com/file/d/1Bd87admxOZvbIOAyTkGEntsEz3fyMt7H/view?usp=sharing), [BaiduDrive](https://pan.baidu.com/s/15iKz3wv6UhKmPGR6ltK4AA) code: wsw3 | **Trained by original codes** |
+| kIMGS | lrate | Optimizer | Dataset| Model | FID |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 3,600 | 0.0025 | Adam  | GFI-UND | [Download Here]()| 16.29 |
 
 
 
