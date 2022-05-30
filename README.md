@@ -21,7 +21,7 @@ The synthetic iris images generated with the model that obtained the best fid sc
 
 
 | kIMGS | lrate | Optimizer | Dataset| Model | FID |
-| --- | --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
 | 3,600 | 0.0025 | Adam  | GFI-UND | [Download Here]()| 16.29 |
 
 
