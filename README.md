@@ -32,9 +32,9 @@ Used implementation of StyleGAN2: [Here](https://github.com/NVlabs/stylegan2-ada
 
 ## Downloads
 
-- Best model StyleGAN2 (FID = 16.29): [Download](https://drive.google.com/file/d/16EUDdWTipj7YAEOntEPx8KkmpFA10tGD/view?usp=sharing).
+- Best model StyleGAN2 (FID = 16.29): [Download](https://drive.google.com/file/d/1QVZ2QIOGj1IEmDUTvTncRO0h1iy1By3B/view?usp=sharing). (The file password should be required to juan.tapia-farias@h-da.de).
 - Dataset 3000 synthetic iris images: [Download](https://www.dropbox.com/s/uag9fjp5dk0guct/StyleGan-Iris-PADv1.zip?dl=0) (The file password should be required to juan.tapia-farias@h-da.de).
-- GFI-UND database: [Download](https://cvrl.nd.edu/projects/data/the-gender-from-iris-dataset-nd-gfi).
+- GFI-UND database: [Download]([https://cvrl.nd.edu/projects/data/#the](https://cvrl.nd.edu/projects/data/#the-gender-from-iris-dataset-nd-gfi)). (With the permission of University of Notre Dame-UND).
 
 
 
@@ -50,7 +50,17 @@ Used implementation of StyleGAN2: [Here](https://github.com/NVlabs/stylegan2-ada
 ## Citation
 
 ```
-
+@article{https://doi.org/10.1049/bme2.12084,
+author = {Maureira, Jose and Tapia, Juan E. and Arellano, Claudia and Busch, Christoph},
+title = {Analysis of the synthetic periocular iris images for robust Presentation Attacks Detection algorithms},
+journal = {IET Biometrics},
+volume = {n/a},
+number = {n/a},
+pages = {},
+doi = {https://doi.org/10.1049/bme2.12084},
+url = {https://ietresearch.onlinelibrary.wiley.com/doi/abs/10.1049/bme2.12084},
+eprint = {https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/bme2.12084},
+}
 ```
 
 ## Contact info
