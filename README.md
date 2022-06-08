@@ -30,6 +30,10 @@ The dataset used in this paper of 3000 synthetically generated iris images with 
 
 Used implementation of StyleGAN2: [Here](https://github.com/NVlabs/stylegan2-ada-pytorch)
 
+## Paper
+
+[Link IET](https://ietresearch.onlinelibrary.wiley.com/doi/abs/10.1049/bme2.12084)
+
 ## Downloads
 
 - Best model StyleGAN2 (FID = 16.29): [Download](https://drive.google.com/file/d/1QVZ2QIOGj1IEmDUTvTncRO0h1iy1By3B/view?usp=sharing). (The file password should be required to juan.tapia-farias@h-da.de).
