@@ -67,6 +67,9 @@ eprint = {https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/bme2.12084
 }
 ```
 
+## Disclaimer
+The dataset, the implementation, or trained models used is restricted to research purposes. Using the dataset or the implementation/trained models for product development or comercial product is not allowed. This project is licensed under the terms of the Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) license.
+
 ## Contact info
 
 If you have any questions, you can contact us at the following emails:
