@@ -26,7 +26,7 @@ The synthetic iris images generated with the StyleGAN2 model that obtained the b
 | --- | --- | --- | --- | --- | --- |
 | 3,600 | 0.0025 | Adam  | Yes | GFI-UND | 16.29 |
 
-The dataset used in this paper of 3000 synthetically generated iris images with the best StyleGAN2 model is available in Downlads section.
+The dataset used in this paper of 3000 synthetically generated iris images with the best StyleGAN2 model is available in Downloads section.
 
 Used implementation of StyleGAN2: [Here](https://github.com/NVlabs/stylegan2-ada-pytorch)
 
