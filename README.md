@@ -38,7 +38,7 @@ Used implementation of StyleGAN2: [Here](https://github.com/NVlabs/stylegan2-ada
 
 - Best model StyleGAN2 (FID = 16.29): [Download](https://drive.google.com/file/d/1QVZ2QIOGj1IEmDUTvTncRO0h1iy1By3B/view?usp=sharing). (The file password should be required to juan.tapia-farias@h-da.de).
 - Dataset 3000 synthetic iris images: [Download](https://www.dropbox.com/s/uag9fjp5dk0guct/StyleGan-Iris-PADv1.zip?dl=0) (The file password should be required to juan.tapia-farias@h-da.de).
-- GFI-UND database: [Download request](https://cvrl.nd.edu/projects/data/#the-gender-from-iris-dataset-nd-gfi) (With the permission of University of Notre Dame-UND).
+- GFI-UND database: [Download request](https://cvrl.nd.edu/projects/data/#the-gender-from-iris-dataset-nd-gfi) (For Download this dataset request permission directly to University of Notre Dame-UND).
 
 
 
